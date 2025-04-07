@@ -140,10 +140,12 @@ class MainActivity : ComponentActivity() {
                                     .padding(16.dp)
                             ) {
 
+                                // Añadir un espacio al inicio para bajar la interfaz
+                                Spacer(modifier = Modifier.height(20.dp))
 
                                 // Título personalizado
                                 Text(
-                                    text = "Conetec",
+                                    text = "Conectec",
                                     style = MaterialTheme.typography.headlineMedium.copy(
                                         fontSize = 32.sp,         // tamaño en sp
                                         fontWeight = FontWeight.Bold,

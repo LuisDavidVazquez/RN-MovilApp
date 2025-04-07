@@ -89,17 +89,17 @@
       "power": "Típicamente 12-24V, 2-5A (24-120W), dependiendo del dispositivo",
       "uses": "Alimentación de portátiles y otros dispositivos electrónicos. Los conectores redondos varían en tamaño según el fabricante y modelo."
     },
-    "Clavija US 3 pines": {
-      "compatibility": "Estándar en América del Norte para conectar dispositivos que requieren conexión a tierra.",
+    "Clavija US (Americana 2 patas)": {
+      "compatibility": "Estándar en América del Norte y otros países que siguen normas NEMA para dispositivos sin requisitos de conexión a tierra.",
+      "speed": "No aplica",
+      "power": "110-120V, hasta 15A (1800W) para dispositivos básicos sin necesidad de conexión a tierra",
+      "uses": "Conexión de dispositivos eléctricos de bajo consumo a la red eléctrica como lámparas, cargadores, pequeños electrodomésticos y equipos electrónicos que no requieren toma de tierra."
+    },
+    "Clavija US (Americana 3 patas)": {
+      "compatibility": "Estándar en América del Norte para conectar dispositivos que requieren conexión a tierra por seguridad.",
       "speed": "No aplica",
       "power": "110-120V, hasta 15A (1800W), incluyendo conexión a tierra para mayor seguridad",
-      "uses": "Conexión segura con toma de tierra para equipos electrónicos que requieren protección adicional, como electrodomésticos y equipos médicos."
-    },
-    "Clavija US (Americana)": {
-      "compatibility": "Estándar en América del Norte y otros países que siguen normas NEMA.",
-      "speed": "No aplica",
-      "power": "110-120V, hasta 15A (1800W) en clavijas estándar",
-      "uses": "Conexión de dispositivos eléctricos a la red en Estados Unidos, Canadá y países que adoptan el estándar americano."
+      "uses": "Conexión segura con toma de tierra para equipos electrónicos y electrodomésticos de mayor potencia como refrigeradores, lavadoras, computadoras de escritorio y equipos médicos que requieren protección adicional."
     },
     "Cargador magnetico": {
       "compatibility": "Compatible con dispositivos específicos como algunos modelos de Apple MacBook, Microsoft Surface y smartphones con carga magnética.",
